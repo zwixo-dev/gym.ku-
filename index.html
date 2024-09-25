@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym.ku</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            max-width: 760px;
+            width: 90%;
+            margin: auto;
+            border: 1px solid rgba(0, 0, 0, 0.055);
+            font-family: "Lato", sans-serif;
+        }
+        table{
+            width: 100%;
+            border-spacing: 0px;
+            overflow: hidden;
+        }
+        .header{
+            background-color: rgba(219, 17, 27, 0.048);
+        }
+        h1 ,span{
+            text-align: center;
+            display: block;
+            margin: 0.2em 0;
+        }
+        h1{
+            margin-top: 0.4em;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  word-spacing: 0.2em;
+        }
+        span{
+            font-size: 16px;
+            margin: 0.3em 0em;
+  font-weight: 500;
+  color: #333;
+        }
+        .main{
+            text-align: center;
+        }
+        .main td .image-1{
+            margin-top: 2em;
+            margin-bottom: 2em;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+            max-width: 70%;
+        }
+        .image-2{
+            max-width: 350px;
+            margin-top: 3em;
+            margin-bottom: 0.3em;
+        }
+        .main-1 td {
+            text-align: center;
+        }
+        .p-1{
+            text-align: center;
+            line-height: 1.6em;
+            margin-bottom: 2em;
+            font-weight: 500;
+            font-size: 18px;
+            padding: 0 30px;
+        }
+        .image-3{
+            width: 30px;
+            float: left;
+        }
+        button{
+            width: 94px;
+            height: 40px;
+            display: block;
+            margin: 1em 0em;
+            border: none;
+            border-radius: 8px;
+            background-color: rgba(219, 17, 27, 0.096);
+            margin: 0.5em auto;
+            transition: all 0.5s ease;
+        }
+        button:hover{
+            background-color:  rgba(219, 17, 27, 0.205);
+        }
+        h4{
+            margin-bottom: -28px;
+            margin-left: 30px;
+            font-family: "Lato", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .footer{
+            text-align: center;
+            background-color: rgba(133, 99, 100, 0.027);
+        }
+        .footer td p{
+            font-family: "Lato", sans-serif;
+            font-size: 14px;
+            color: #555;
+        }
+        /* style for mobile*/
+        @media (max-width: 600px) {
+            body{
+                width: 100%;
+            }
+            table{
+                max-width: 100%;
+            }
+            h1{
+                font-size: 17px;
+            }
+            span{
+                font-size: 14px;
+            }
+            .main td .image-1 , .image-2{
+                max-width: 70%;
+            }
+            .p-1{
+                padding: 0px 4px;
+                font-size: 16px;
+            }
+        }
+        /*style for ipad*/
+        @media (min-width: 600px) and (max-width: 1024px) {
+            body{
+                width: 100%;
+            }
+            table{
+                max-width: 100%;
+            }
+            .main td .image-1 , .image-2{
+                max-width: 74%;
+            }
+            .p-1{
+                font-size: 20px;
+            }
+        } 
+        /*for laptop*/
+        @media (min-width: 1024px) {
+            body{
+                width: 760px;
+                margin: auto;
+            }
+            span{
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <td>
+                <h1>Limited offer for subscribers this month</h1>
+                <span>Join now and get a special discount on all memberships!</span>
+            </td>
+        </tr>
+        <!--main-->
+
+        <tr class="main">
+            <td>
+                <img src="https://gen.sendtric.com/countdown/0jh20c8kg3"  alt="timer" class="image-1">
+            </td>
+        </tr>
+
+            <tr class="main-1">
+                <td>
+                    <img src="image/whey.png" alt="Protein shake image" class="image-2">
+                    <p class="p-1">Welcome to our gym! As you embark on your fitness journey, we encourage you to consider incorporating protein supplements into your routine. Protein is essential for muscle recovery and growth, helping you achieve your goals more effectively. Our high-quality protein options are designed to support your workouts and enhance your overall performance. Don’t miss out on the benefits grab your protein today and fuel your progress!</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#"><button> <h4>Buy Now</h4><img src="image/protein-shake.png" alt="" class="image-3"></button></a>
+                </td>
+            </tr>
+            <!--footer-->
+            
+            <tr class="footer">
+                <td style="padding: 1.3em 0em;">
+                    <p>123 Sakura Street, Minato-ku, Tokyo 106-0032, Japan</p>
+                    <p>gym.kusupport@gmail.com</p>
+                    <p>gym.ku.com</p>
+                    <p>&copy;2024 all right reseved</p>
+                </td>
+            </tr>
+    </table>
+</body>
+</html>
